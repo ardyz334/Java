@@ -75,7 +75,7 @@ public class Tester {
     public void displayInfo() {
         System.out.println("Имя: " + name + " Фамилия: " + surname + " Опыт работы (в годах): " + experienceInYears + " Уровень английского: " + getEnglishLevel() + " Зарплата: " + salary);
     }
-
+//c2
     @Override
     public String toString() {
         return "имя: " + name;
