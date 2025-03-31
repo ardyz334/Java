@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Средняя зарплата: " + averageSalary);
 
         Tester tester = new Tester("Никита", "боров", 3, "B2", 2000);
-        System.out.println(tester);
+        System.out.println(tester);//comment
         tester.displayInfo();
         tester.displayInfo(tester.getExperienceInYears());
         tester.displayInfo(tester.getName());
