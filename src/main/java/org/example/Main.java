@@ -11,7 +11,7 @@ public class Main {
                 new Tester("Коля", "Пугна", 2, "B1", 4000)
         };
         double averageSalary = Tester.calculateAverageSalary(testers);
-        System.out.println("Средняя зарплата: " + averageSalary);
+        System.out.println("Средняя зарплата: " + averageSalary);//c1
 
         Tester tester = new Tester("Никита", "боров", 3, "B2", 2000);
         System.out.println(tester);//comment
